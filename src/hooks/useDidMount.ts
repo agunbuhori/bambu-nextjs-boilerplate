@@ -4,7 +4,7 @@ const useDidMount = () => {
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
-    setMounted(false);
+    setMounted(true);
   }, []);
 
   return mounted;
